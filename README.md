@@ -3,7 +3,7 @@ Proyecto para crear una vpn en Wireguard en Docker.
 
 ![alt text](https://github.com/JuanRodenas/Wireguard/blob/main/wireguard.png)
 
-### INSTALAR DOCKER-COMPOSE.YML DE PIHOLE
+### INSTALAR DOCKER-COMPOSE.YML DE WIREGUARD
 Edite las siguientes variables:
 
 Descargar [docker-compose.yml](https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml)
