@@ -21,7 +21,7 @@ Edite el volumen y cambiar la ruta deseada:
 
 ### Lanzar el contenedor
 ~~~
-docker-compose -up d
+docker-compose up -d
 ~~~
 
 ### Ver el log para ver los códigos QR para los usuarios
