@@ -6,8 +6,7 @@ Proyecto para crear una vpn en Wireguard en Docker.
 ### INSTALAR DOCKER-COMPOSE.YML DE WIREGUARD
 Edite las siguientes variables:
 
-> Descargar docker compose [docker-compose.yml](https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml)
-> Descargar docker compose con traefik [docker-compose.yml_traefik](https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml_traefik)
+Descargar docker compose [docker-compose.yml](https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml)
 
 - Cambiar el valor de la variable `PEERS=3` por el número deseado de clientes o indicar los nombres de los clientes separados por comas `PEERS=PEER1, PEER2`.
 - Abra el puerto `51820/UDP` en el router, y apúntelo a la IP del servidor donde está ejecutando el contenedor.
