@@ -26,7 +26,7 @@ Simplemente tirando de `lscr.io/linuxserver/wireguard` debería recuperar la ima
 Edite el volumen y cambiar la ruta deseada:
 ~~~
   volumes:
-    - /home/root/wireguard/appdata/config:/config
+    - /patch/to/data/wireguard/appdata/config:/config
 ~~~
 
 ### Lanzar el contenedor
