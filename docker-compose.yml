@@ -16,7 +16,7 @@ services:
       - PEERDNS=1.1.1.1, 1.0.0.1
       - ALLOWEDIPS=0.0.0.0/0
     volumes:
-      - /home/jrodenas/docker/wireguard/appdata/config:/config
+      - /patch/to/data/wireguard/appdata/config:/config
       - /lib/modules:/lib/modules
     ports:
       - 51820:51820/udp
