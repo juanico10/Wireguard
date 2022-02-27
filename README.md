@@ -39,7 +39,7 @@ docker-compose up -d
 docker logs wireguard
 ~~~
 
-###  Supervisar el tráfico de un cliente conectado
+### Supervisar el tráfico de un cliente conectado
 - Acceder al contenedor:
 ~~~
 docker exec -it wireguard bash
@@ -48,5 +48,8 @@ docker exec -it wireguard bash
 ~~~
 wg show
 ~~~
+### Download App
+- Android: https://play.google.com/store/apps/details?id=com.wireguard.android
+- iPhone/iPad: https://apps.apple.com/es/app/wireguard/id1441195209
 
 ## Ready!
