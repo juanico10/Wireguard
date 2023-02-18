@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   wireguard:
-    image: ghcr.io/linuxserver/wireguard:amd64-latest
+    image: ghcr.io/linuxserver/wireguard:latest
     container_name: wireguard
     cap_add:
       - NET_ADMIN
@@ -10,11 +10,14 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
+      - SERVERURL=wireguard.domain.com
+      - LOG_CONFS=true
       - TZ=Europe/Madrid
       - SERVERPORT=51820
-      - PEERS=PEER1, PEER2
+      - PEERS=PEER1,PEER2
       - PEERDNS=1.1.1.1, 1.0.0.1
-      - ALLOWEDIPS=0.0.0.0/0
+      - ALLOWEDIPS=0.0.0.0/0,::/0
+      - PERSISTENTKEEPALIVE_PEERS=all
     volumes:
       - /patch/to/data/wireguard/appdata/config:/config
       - /lib/modules:/lib/modules
@@ -23,3 +26,5 @@ services:
     sysctls:
       - net.ipv4.conf.all.src_valid_mark=1
     restart: always
+    security_opt:
+      - no-new-privileges:true
