@@ -1,12 +1,12 @@
 # Wireguard
 Proyecto para crear una vpn en Wireguard en Docker.
 
-![alt text](https://github.com/JuanRodenas/Wireguard/blob/main/wireguard.png)
+![alt text](https://github.com/JuanRodenas/Wireguard/blobmain/assets/wireguard.png)
 
 ### INSTALAR DOCKER-COMPOSE.YML DE WIREGUARD
 Edite las siguientes variables:
 
-Descargar docker compose [docker-compose.yml](https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml)
+Descargar docker compose <a title="download" href="https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml"><img src="https://github.com/JuanRodenas/Duckdns/blob/main/files/down.png" alt="download" width="100" align="center" /></a>
 
 Simplemente tirando de `lscr.io/linuxserver/wireguard` debería recuperar la imagen correcta para su arco, pero también puede tirar de imágenes específicas de arco a través de etiquetas.
 
@@ -51,8 +51,23 @@ docker exec -it wireguard bash
 ~~~
 wg show
 ~~~
-### Download App
-- Android: https://play.google.com/store/apps/details?id=com.wireguard.android
-- iPhone/iPad: https://apps.apple.com/es/app/wireguard/id1441195209
+
+## Generador de configuración Wireguard
+Esta herramienta es para ayudar con la creación de archivos de configuración para una configuración de WireGuard 'road-warrior' en la que tiene un servidor y un montón de clientes. Simplemente ingrese los parámetros para su configuración particular y haga clic en Generar configuración para comenzar. 
+- Web wireguardconfig.com
+<a href="https://www.wireguardconfig.com/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Wireguard/blob/main/assets/site.png" width="60px"></a>
+
+- Web dbca-wa.github.io
+<a href="https://dbca-wa.github.io/wg-webcfg/wg-webcfg.html" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Wireguard/blob/main/assets/site.png" width="60px"></a>
+
+## Download App
+
+### Aplicacion android
+<a href="https://play.google.com/store/apps/details?id=com.wireguard.android" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Wireguard/blob/main/assets/google-play.png" width="60px"></a>
+### Aplicacion iPhone/iPad
+<a href="https://apps.apple.com/es/app/wireguard/id1441195209" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Wireguard/blob/main/assets/app-store.png" width="60px"></a>
+
+## Otro wireguard con GUI
+https://github.com/weejewel/wg-easy
 
 ## 🎉 ¡Ready!
