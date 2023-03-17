@@ -17,6 +17,9 @@ Simplemente tirando de `lscr.io/linuxserver/wireguard` debería recuperar la ima
 | x86-64 | amd64-latest |
 | arm64 | arm64v8-latest |
 
+### Versión latest docker Wireguard
+![Docker Image Version (latest)](https://img.shields.io/docker/v/linuxserver/wireguard/latest?arch=amd64&color=blue&logo=docker&logoColor=blue&style=for-the-badge)
+
 ### Variables del docker-compose
 - Cambiar el valor de la variable `PEERS=3` por el número deseado de clientes o indicar los nombres de los clientes separados por comas `PEERS=PEER1, PEER2`.
 - Abra el puerto `51820/UDP` en el router, y apúntelo a la IP del servidor donde está ejecutando el contenedor.
@@ -52,4 +55,4 @@ wg show
 - Android: https://play.google.com/store/apps/details?id=com.wireguard.android
 - iPhone/iPad: https://apps.apple.com/es/app/wireguard/id1441195209
 
-## Ready!
+## 🎉 ¡Ready!
