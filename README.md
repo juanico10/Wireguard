@@ -24,6 +24,7 @@ Simplemente tirando de `lscr.io/linuxserver/wireguard` debería recuperar la ima
 - Cambiar el valor de la variable `PEERS=3` por el número deseado de clientes o indicar los nombres de los clientes separados por comas `PEERS=PEER1, PEER2`.
 - Abra el puerto `51820/UDP` en el router, y apúntelo a la IP del servidor donde está ejecutando el contenedor.
 - Cambiar el valor de la variable `PEERDNS=1.1.1.1, 1.0.0.1` por las DNS deseadas.
+- añada el dominio de acceso en `SERVERURL`.
 
 ### Lanzar el contenedor
 Edite el volumen y cambiar la ruta deseada:
@@ -52,6 +53,9 @@ docker exec -it wireguard bash
 wg show
 ~~~
 
+### wireguard con GUI
+https://github.com/weejewel/wg-easy
+
 ## Generador de configuración Wireguard
 Esta herramienta es para ayudar con la creación de archivos de configuración para una configuración de WireGuard 'road-warrior' en la que tiene un servidor y un montón de clientes. Simplemente ingrese los parámetros para su configuración particular y haga clic en Generar configuración para comenzar. 
 - Web wireguardconfig.com
@@ -68,10 +72,8 @@ Esta herramienta es para ayudar con la creación de archivos de configuración p
 ### Aplicacion iPhone/iPad
 <ul><a href="https://apps.apple.com/es/app/wireguard/id1441195209" target="_blank" rel="noopener noreferrer"><img src="https://github.com/JuanRodenas/Wireguard/blob/main/assets/app-store.png" width="60px"></a></ul>
 
-## Otro wireguard con GUI
-https://github.com/weejewel/wg-easy
 
-
+&nbsp;
 ## COMPROBAR SEGURIDAD VPN
 Una forma de comprobar si tu VPN está cifrando tu tráfico es verificando la configuración de seguridad de tu conexión VPN. puede usar herramientas en línea para verificar si su conexión VPN está cifrando su tráfico de forma efectiva. Hay varias herramientas en línea que pueden hacer esta comprobación:
 
@@ -158,8 +160,8 @@ El WebRTC es un sistema de comunicación integrado en la mayoría de navegadores
 
 
 <Original>&nbsp;Cómo solucionarlo</Original>
-1. Usar un navegador que no tenga WebRTC. Tienes una lista <a href="URL">NOMBRE</a>[aquí](https://en.wikipedia.org/wiki/WebRTC).
-2. Desactivar el WebRTC de tu navegador siguiendo estos pasos: <a href="URL">NOMBRE</a>[link](Cómo solucionarlo).
+1. Usar un navegador que no tenga WebRTC. Tienes una lista <a href="https://en.wikipedia.org/wiki/WebRTC">aquí</a>.
+2. Desactivar el WebRTC de tu navegador siguiendo estos pasos: <a href="https://nordvpn.com/es/blog/webrtc-que-es/">link</a> o aquí <a href="https://www.redeszone.net/2019/02/27/webrtc-deshabilitar-chrome-firefox/">link</a>.
 3. Instalar extensiones en tu navegador que limiten el acceso a tu WebRTC. Si utilizas Google Chrome, te servirá la extensión WebRTC Network Limiter.
 </details>
 &nbsp;
