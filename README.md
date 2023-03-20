@@ -78,38 +78,39 @@ Una forma de comprobar si tu VPN está cifrando tu tráfico es verificando la co
 Recomendamos: Una política estrictamente sin registros, sin ningún registro de actividad o conexión.	
 
 ### Comprueba si tienes filtraciones en tu IP
+La IP es tu dirección en internet y, probablemente, el dato privado más importante que debes proteger a la hora de navegar por la red. Tu IP puede desvelar el lugar geográfico donde te encuentras y las páginas web que visitas, así que es muy importante que la mantengas protegida en todo momento.
+
 <details>
 <summary>¿Cómo comprobar si tu IP se está filtrando?</summary>
-
-La IP es tu dirección en internet y, probablemente, el dato privado más importante que debes proteger a la hora de navegar por la red. Tu IP puede desvelar el lugar geográfico donde te encuentras y las páginas web que visitas, así que es muy importante que la mantengas protegida en todo momento.
 
 1. Desactiva tu VPN y accede a una de las páginas indicadas para descubrir cuál es tu IP real.
 2. Anota tu IP.
 3. Activa tu VPN y realiza el test de nuevo. Si tu IP sigue siendo la misma, tu VPN no está funcionando adecuadamente.
 
-<Original>&nbsp;¿Cómo comprobar si tu IP se está filtrando?</Original>
-
+<Original>&nbsp;Página para comprobar si tu IP se está filtrando</Original>
 &nbsp;
-<p>  &nbsp;&nbsp;[dnsleaktest](https://www.dnsleaktest.com/): Este sitio web te permite verificar si tu VPN ha enrutado correctamente todo tu tráfico a través de la conexión VPN. También te muestra detalles sobre los servidores DNS a los que estás conectado.</p>
-<p>  &nbsp;&nbsp;[ipleak](https://ipleak.net/): Este sitio web te permite comprobar la dirección IP que se está mostrando para tu conexión, asegurándote de que corresponde a la dirección IP del servidor VPN al que estás conectado.</p>
-<p>  &nbsp;&nbsp;[perfect-privacy](https://www.perfect-privacy.com/check-ip/): Esta herramienta te permite verificar si tu dirección IP y tu ubicación geográfica coinciden con la dirección IP y la ubicación del servidor VPN al que estás conectado.</p>
-<p>  &nbsp;&nbsp;[do-i-leak](https://www.top10vpn.com/tools/do-i-leak/): Realiza pruebas para verificar la seguridad de tu conexión VPN y detecta posibles fugas.</p>
-<p>  &nbsp;&nbsp;[ExpressVPN Leak Testing Tools](https://github.com/expressvpn/expressvpn_leak_testing) Ofrece un conjunto de herramientas en línea para realizar pruebas y comprobar la seguridad de tu conexión VPN.</p>
-<p>  &nbsp;&nbsp;[fugas-ip-test](https://www.top10vpn.com/es/herramientas/fugas-ip-test/) Es capaz de identificar fugas de IP, DNS, WebRTC y geolocalización, además de fugas de IP y DNS al descargar torrents.</p>
+<p>  &nbsp;&nbsp;<a href="https://www.dnsleaktest.com/">dnsleaktest</a>: Este sitio web te permite verificar si tu VPN ha enrutado correctamente todo tu tráfico a través de la conexión VPN. También te muestra detalles sobre los servidores DNS a los que estás conectado.</p>
+<p>  &nbsp;&nbsp;<a href="https://ipleak.net/">ipleak</a>: Este sitio web te permite comprobar la dirección IP que se está mostrando para tu conexión, asegurándote de que corresponde a la dirección IP del servidor VPN al que estás conectado.</p>
+<p>  &nbsp;&nbsp;<a href="https://www.perfect-privacy.com/check-ip/">perfect-privacy</a>: Esta herramienta te permite verificar si tu dirección IP y tu ubicación geográfica coinciden con la dirección IP y la ubicación del servidor VPN al que estás conectado.</p>
+<p>  &nbsp;&nbsp;<a href="https://www.top10vpn.com/tools/do-i-leak/">do-i-leak</a>: Realiza pruebas para verificar la seguridad de tu conexión VPN y detecta posibles fugas.</p>
+<p>  &nbsp;&nbsp;<a href="https://github.com/expressvpn/expressvpn_leak_testing">ExpressVPN Leak Testing Tools</a>: Ofrece un conjunto de herramientas en línea para realizar pruebas y comprobar la seguridad de tu conexión VPN.</p>
+<p>  &nbsp;&nbsp;<a href="https://www.top10vpn.com/es/herramientas/fugas-ip-test/">fugas-ip-test</a>: Es capaz de identificar fugas de IP, DNS, WebRTC y geolocalización, además de fugas de IP y DNS al descargar torrents.</p>
 
 </details>
 &nbsp;
 
 ### Herramienta de prueba de Kill Switch
-La función de un Kill Switch en una VPN es simplemente parar la conexión. En cuanto hay un problema, sea cual sea, y la VPN deja de funcionar correctamente, esta característica evitaría que sigamos conectados a Internet. Básicamente actúa como un interruptor de seguridad. Un botón automático que se activa en cuanto la VPN se desconecta.
+La función de un Kill Switch en una VPN es simplemente parar la conexión. En cuanto hay un problema, sea cual sea, y la VPN deja de funcionar correctamente, esta característica evitaría que sigamos conectados a Internet. Básicamente actúa como un interruptor de seguridad. Un botón automático que se activa en cuanto la VPN se desconecta. 
 
 <details>
 <summary>¿Cómo comprobar prueba de Kill Switch?</summary>
 
-<Original>&nbsp;Page to check your selfhosted from fivefilters</Original>
+Un Kill Switch de VPN es una función de seguridad que desconecta tu dispositivo de forma automática de Internet si pierdes la conexión VPN, y vuelve a conectarse cuando se recupera la conexión VPN. Esto evita que se descubra tu dirección IP pública de forma accidental y que se envíen datos de navegación a través de una conexión a Internet no segura. Deberías tener activado el Kill Switch en todo momento para garantizar la privacidad y seguridad de tus datos.
 
-<p>  &nbsp;&nbsp;[dnsleaktest](https://www.dnsleaktest.com/): Este sitio web te permite verificar si tu VPN ha enrutado correctamente todo tu tráfico a través de la conexión VPN.</p>
-<p>  &nbsp;&nbsp;[kill-switch](https://www.top10vpn.com/es/guias/kill-switch-vpn/) Nos permite verificar si hay fugas de IP al cambiar los servidores VPN o en caso de que Internet se desconecte de forma inesperada. Un buen Kill Switch de VPN debería poder prevenir todas las fugas y pasar nuestras pruebas.</p>
+<Original>&nbsp;Página para comprobar Kill Switch</Original>
+
+<p>  &nbsp;&nbsp;<a href="https://www.dnsleaktest.com/">dnsleaktest</a>: Este sitio web te permite verificar si tu VPN ha enrutado correctamente todo tu tráfico a través de la conexión VPN.</p>
+<p>  &nbsp;&nbsp;<a href="https://www.top10vpn.com/es/guias/kill-switch-vpn/">kill-switch</a>: Nos permite verificar si hay fugas de IP al cambiar los servidores VPN o en caso de que Internet se desconecte de forma inesperada. Un buen Kill Switch de VPN debería poder prevenir todas las fugas y pasar nuestras pruebas.</p>
 
 </details>
 &nbsp;
@@ -120,7 +121,7 @@ La función de un Kill Switch en una VPN es simplemente parar la conexión. En c
 En ocasiones, incluso si tu IP está protegida, tu DNS puede desvelar tu ubicación. El DNS se encarga de transcribir las direcciones textuales de las webs en términos numéricos, es decir, en IPs. Si tu equipo no está convenientemente protegido, este proceso de conversión puede desvelar tu ubicación y las webs que has visitado. La exposición de tu DNS, además, puede hacerte vulnerable a ataques de secuestro de DNS o ‘DNS hijacking’.
 
 <details>
-<summary>¿Cómo comprobar si tu DNS está filtrando tu IP?</summary>
+<summary>¿Cómo comprobar si tienes filtraciones en tu DNS?</summary>
 
 <Original>&nbsp;Comprueba si tienes filtraciones en tu DNS</Original>
 1. Recuerda tu IP del apartado anterior.
@@ -128,11 +129,11 @@ En ocasiones, incluso si tu IP está protegida, tu DNS puede desvelar tu ubicaci
 3. Si reconoces tu IP, tienes una filtración en tu DNS.
 4. Si tu IP no aparece en primera instancia, puedes usar el test extendido para asegurarte de que no haya filtraciones.
 
-
-<p>  &nbsp;&nbsp;[fugas-ip-test](https://www.top10vpn.com/es/herramientas/fugas-ip-test/)</p>
-<p>  &nbsp;&nbsp;[test-ipv6.com](http://www.test-ipv6.com/)</p>
-<p>  &nbsp;&nbsp;[checkip.amazonaws.com](http://checkip.amazonaws.com/)</p>
-<p>  &nbsp;&nbsp;[ipaddress.com](https://www.ipaddress.com/)</p>
+<Original>&nbsp;Página para comprobar filtraciones en tu DNS</Original>
+<p>  &nbsp;&nbsp;<a href="https://www.top10vpn.com/es/herramientas/fugas-ip-test/">fugas-ip-test</a></p>
+<p>  &nbsp;&nbsp;<a href="http://www.test-ipv6.com/">test-ipv6.com</a></p>
+<p>  &nbsp;&nbsp;<a href="http://checkip.amazonaws.com/">checkip.amazonaws.com</a></p>
+<p>  &nbsp;&nbsp;<a href="https://www.ipaddress.com/">ipaddress.com</a></p>
 
 </details>
 &nbsp;
@@ -141,7 +142,7 @@ En ocasiones, incluso si tu IP está protegida, tu DNS puede desvelar tu ubicaci
 El WebRTC es un sistema de comunicación integrado en la mayoría de navegadores como Firefox, Opera, Chrome y Brave. Está diseñado para facilitar el intercambio de audio y video en tiempo real entre usuarios mediante el establecimiento de una conexión directa entre ellos, pero presenta vulnerabilidades que pueden filtrar las IPs de sus usuarios.
 
 <details>
-<summary>¿Cómo comprobar si tu WebRTC está filtrando tu IP?</summary>
+<summary>¿Cómo comprobar si tienes filtraciones en tu WebRTC?</summary>
 
 <Original>&nbsp;Comprueba si tienes filtraciones en tu WebRTC</Original>
 
@@ -149,14 +150,16 @@ El WebRTC es un sistema de comunicación integrado en la mayoría de navegadores
 2. Activa tu VPN y dirígete a la página siguiente.
 3. Si reconoces tu IP bajo la categoría ‘Your IP addresses – WebRTC detection’, tu WebRTC está filtrando tu IP.
 
-<p>  &nbsp;&nbsp;[webrtc](https://browserleaks.com/webrtc)</p>
-<p>  &nbsp;&nbsp;[Browser Privacy](https://tenta.com/test/) </p>
-<p>  &nbsp;&nbsp;[Cloudflare Browser Check](https://www.cloudflare.com/es-es/ssl/encrypted-sni/) </p>
-<p>  &nbsp;&nbsp;[Cover Your Tracks](https://coveryourtracks.eff.org/) </p>
+<Original>&nbsp;Página para comprobar filtraciones en tu WebRTC</Original>
+<p>  &nbsp;&nbsp;<a href="https://browserleaks.com/webrtc">webrtc</a></p>
+<p>  &nbsp;&nbsp;<a href="https://tenta.com/test/">Browser Privacy</a></p>
+<p>  &nbsp;&nbsp;<a href="https://www.cloudflare.com/es-es/ssl/encrypted-sni/">Cloudflare Browser Check</a></p>
+<p>  &nbsp;&nbsp;<a href="https://coveryourtracks.eff.org/">Cover Your Tracks</a></p>
 
-Cómo solucionarlo
-1. Usar un navegador que no tenga WebRTC. Tienes una lista [aquí](https://en.wikipedia.org/wiki/WebRTC).
-2. Desactivar el WebRTC de tu navegador siguiendo estos pasos: [link](Cómo solucionarlo).
+
+<Original>&nbsp;Cómo solucionarlo</Original>
+1. Usar un navegador que no tenga WebRTC. Tienes una lista <a href="URL">NOMBRE</a>[aquí](https://en.wikipedia.org/wiki/WebRTC).
+2. Desactivar el WebRTC de tu navegador siguiendo estos pasos: <a href="URL">NOMBRE</a>[link](Cómo solucionarlo).
 3. Instalar extensiones en tu navegador que limiten el acceso a tu WebRTC. Si utilizas Google Chrome, te servirá la extensión WebRTC Network Limiter.
 </details>
 &nbsp;
@@ -165,16 +168,16 @@ Cómo solucionarlo
 Utilizamos dos herramientas para probar las velocidades de VPN.
 
 <details>
-<summary>¿Cómo comprobar si tu WebRTC está filtrando tu IP?</summary>
+<summary>¿Cómo comprobar la velocidad de tu conexión vpn?</summary>
 Controla tu conexión para poder decirte las velocidades de descarga y subida, además del tiempo ping. Utilizamos esto para saber la diferencia entre las velocidades de nuestra conexión a Internet con y sin una VPN.
 
-<Original>&nbsp;Page to check your vpn</Original>
+<Original>&nbsp;Página para comprobar la velocidad</Original>
 
-<p>  &nbsp;&nbsp;[speedtest.net](http://speedtest.net/) </p>
-<p>  &nbsp;&nbsp;[prueba-velocidad-vpn](https://www.top10vpn.com/es/herramientas/prueba-velocidad-vpn/) </p>
-<p>  &nbsp;&nbsp;[openspeedtest](https://openspeedtest.com/) </p>
-<p>  &nbsp;&nbsp;[fast.com](https://fast.com/es/) </p>
-<p>  &nbsp;&nbsp;[speedsmart.net](https://speedsmart.net/) </p>
+<p>  &nbsp;&nbsp;<a href="http://speedtest.net/">speedtest</a></p>
+<p>  &nbsp;&nbsp;<a href="https://www.top10vpn.com/es/herramientas/prueba-velocidad-vpn/">prueba-velocidad-vpn</a></p>
+<p>  &nbsp;&nbsp;<a href="https://openspeedtest.com/">openspeedtest</a></p>
+<p>  &nbsp;&nbsp;<a href="https://fast.com/es/">fast.com</a></p>
+<p>  &nbsp;&nbsp;<a href="https://speedsmart.net/">speedsmart</a></p>
 
 </details>
 &nbsp;
@@ -182,26 +185,4 @@ Controla tu conexión para poder decirte las velocidades de descarga y subida, a
 
 ## 🎉 ¡Ready!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Check your SelfHosted:
-
-<details>
-<summary>fivefilters:</summary>
-
-<Original>&nbsp;Page to check your selfhosted from fivefilters</Original>
-
-<p>  &nbsp;&nbsp;https://blockads.fivefilters.org/</p>
-</details>
-&nbsp;
+<sup>Estos archivos/textos se proporcionan "TAL CUAL", sin garantías de ningún tipo, expresas o implícitas, incluidas, entre otras, las garantías de comerciabilidad, idoneidad para un fin determinado y no infracción. En ningún caso los autores o los titulares de los derechos de autor serán responsables de ninguna reclamación, daño u otra responsabilidad derivada de, o relacionada con los archivos o el uso de los mismos.</sup>
