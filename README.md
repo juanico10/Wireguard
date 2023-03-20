@@ -18,8 +18,8 @@ Simplemente tirando de `lscr.io/linuxserver/wireguard` debería recuperar la ima
 | arm64 | arm64v8-latest |
 
 ### Versión latest docker Wireguard
-![Docker Image Version (latest)](https://img.shields.io/docker/v/linuxserver/wireguard/latest?arch=amd64&color=blue&logo=docker&logoColor=blue&style=social)
-![GitHub Release Date](https://img.shields.io/github/release-date/linuxserver/docker-wireguard?color=blue&label=Latest%20release&logo=docker&style=social)
+![Docker Image Version (latest)](https://img.shields.io/docker/v/linuxserver/wireguard/latest?arch=amd64&color=blue&logo=docker&logoColor=blue&style=for-the-badge)
+![GitHub Release Date](https://img.shields.io/github/release-date/linuxserver/docker-wireguard?color=blue&label=Latest%20release&logo=docker&style=for-the-badge)
 
 ### Variables del docker-compose
 - Cambiar el valor de la variable `PEERS=3` por el número deseado de clientes o indicar los nombres de los clientes separados por comas `PEERS=PEER1, PEER2`.
