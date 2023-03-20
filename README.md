@@ -18,7 +18,6 @@ Simplemente tirando de `lscr.io/linuxserver/wireguard` debería recuperar la ima
 | arm64 | arm64v8-latest |
 
 ### Versión latest docker Wireguard
-<img alt="GitHub Package Repository" src="https://img.shields.io/static/v1.svg?color=94398d&amp;labelColor=555555&amp;logoColor=ffffff&amp;style=for-the-badge&amp;label=linuxserver.io&amp;message=GitHub%20Package&amp;logo=github" decoding="async" class="r-16l9doz r-13qz1uu" style="max-width: 300px;">
 ![Docker Image Version (latest)](https://img.shields.io/docker/v/linuxserver/wireguard/latest?arch=amd64&color=blue&logo=docker&logoColor=blue&style=for-the-badge)
 ![GitHub Release Date](https://img.shields.io/github/release-date/linuxserver/docker-wireguard?color=blue&label=Latest%20release&logo=docker&style=social)
 
