@@ -1,9 +1,16 @@
 # Wireguard
 Proyecto para crear una vpn en Wireguard en Docker.
 
-![alt text](https://github.com/JuanRodenas/Wireguard/blob/main/assets/wireguard.png)
+<div align="center">
+    <a href="https://www.wireguard.com/">
+        <img src="https://github.com/JuanRodenas/Wireguard/blob/main/assets/wireguard.png" alt="wireguard">
+    </a>
+    <br>
+    <h3>FAST, MODERN, SECURE VPN TUNNEL</h3>
+</div>
 
-### INSTALAR DOCKER-COMPOSE.YML DE WIREGUARD
+---
+### INSTALAR DOCKER COMPOSE
 Edite las siguientes variables:
 
 Descargar docker compose <a title="download" href="https://github.com/JuanRodenas/Wireguard/blob/main/docker-compose.yml"><img src="https://github.com/JuanRodenas/Duckdns/blob/main/files/down.png" alt="download" width="100" align="center"/></a>
